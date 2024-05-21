@@ -1,55 +1,25 @@
 {
   "main": {
-    "debug": false,
-    "game": "cs2",
-    "game_appid": "730",
-    "accept_buff_threshold": 1.03,
-    "accept_steam_threshold": 1.038,
-    "accept_buy_order_threshold": 1.03,
-    "min_volume": 0,
-    "min_price": 1000, 
-    "max_price": 50000  
-  },
-  "buff": {
-    "request_interval": 60,
-    "requests_kwargs": {
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
-        "Referer": "https://buff.163.com/market/csgo",
-        "X-Requested-With": "XMLHttpRequest"
-      }
-    }
-  },
-  "steam": {
-    "request_interval": 15,
-    "requests_kwargs": {
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
-      }
-    }
-  },
-  "mongo": {
-    "uri": "mongodb+srv://RRocha21:benfica10@buff.umt3iuw.mongodb.net/?retryWrites=true&w=majority"
+    "email": "renatosamuelrocha110@gmail.com",
+    "password": "Rr21072000#SLB110.",
+    "debug": false
   },
   "sheets": {
     "credentials": {
-        "type": "service_account",
-        "project_id": "buff-bot",
-        "private_key_id": "e6cdb8b80af6b7f0c6a23f548494873754a4d63b",
-        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDWcQ6Yj1jh11F8\nSs45GKCnVxU8+G+cajskUHuTs0/UYl8N3k/f+Bh+IlZTyHOYtGKiNoQXZuobEymB\nCRIFy+Kt+1GQcxA+x+XlAK9b+YHKhFR7O5S8ppnPLvknsPONtV2AHkzN555X2HMT\nRgU/BCYMmftV72BQUSP07vQ0rXTJDb0azjfjXcDKBrY2oZeXiBbrkrj7weNYLYOz\nCLxsvyjGpoJpknIP1KoumL7EVCy8zFKz4e3CvftUHTrwDb/4dHiVq4PJ0EOkHTRb\n/8Zer37DAfeT9vtCw7GAvJtPqpjA8Lsno5Ou7XEO0PYQO2Ru6o+pFZxXbmlG18YI\nQ3zSz/OXAgMBAAECggEASce/Sl0zqwxutFF2j616BOlQ3NfraskgDRgF1KUip8Oq\nybY+DCSrpKZCxnPW1ejmcMJKA1U84dDffE53HXhvRwYLo6P7KGaVogtwyjfX4KpT\n+MxgmeHGVMLoJbBbs9t9ToneSg/Rao8F1NFIF8zhHH/UOlZwcGHiebDHY+J0JoIK\n3T60hlU1wITddHr/pgux3pmkIWoRLluesQV4rPsqcOlr0UELG62BHxBxDwPuJQR2\nPH9on3oT3l4Xd9WWiq94uuHeIu++/HFIo6Ic4hVey4+YeFGOe93fTmZg24eZQ/zw\nwzyQvZgXmJNPAX0NZ2792JHXwLazNqG4Wo3/P0wbqQKBgQDr9truqTHCe0rvHUwa\nehhZnY27oRQJINlrEhhwQuere4U14T0Uzl0vRVooB1iGDLZhxRsTe6hbwoSXjJDA\n2jzspb0HggthoB5iukFvtz/fBwzygble0oFN1B0V+hrb/z6V1X3++0Kxxsw3FgJq\nB/yhxSNPfk9/rGZom68Rx6hK7wKBgQDopl1uQuN2Otu0Gdhp4FWznfay69t1IgDq\naGLQ6ZnTKFtBRhUz4Ef5eKcuBAyVL/N7IZwLLAb6s8xsKr/ech+ZCPEaKWCrCm9x\nVvZMerCVUX4jlZBlXU/y6+pr3TeJLAGCGpAe27787BSfZ/xUera3B9IfCuZczqPx\nrw+MBvqB2QKBgAgiKyu800VD4LJbTStAeCRmpOMJy1oBMt1Y81SzSa8Eg/P2fpeA\nAYBGoLPuhOOh/otiMuu6AHShQNbEdpzfKOhzUg+3MNM9pK58gxLpux7h7FVTmWMm\nWGSpYhNG2rQomSyq/jvSx1q/Ynynmo+zFMcyt2PfE7hv5dvHOgKf4jIrAoGAHx5R\nlPQBdMj+piJm3hKRpArW+qutmQdJVBFOVl9IogPd4Oc84sl3FxlaUz9bZ4EYcjnW\no2/qJxJxn25AZ8KgE1os1bD/KyGkMmbNXwFyKSbTVnMk80n97aI8otzeFsz6Dqr6\n6AXAkBgL0h6Yk7wuQGEda+WLVpKVPziJPdOZIlECgYEAwzoz8tKkWv+K+pSyS0x1\nv26Mvr+/K6psUZMUOXWbps3G9lXhAJ3H5Ni/zdUtUbJqiIVkvjq5Zx9NovOWuCao\nQC/YsduOroVXZT3y4l+8VMk6+Fd1RnxsIo5UENB5UOiwuGUnFLHMX/h9AVLADMTW\nu39TnLbUucjMIZNCeXLnS54=\n-----END PRIVATE KEY-----\n",
-        "client_email": "buff-bot@buff-bot.iam.gserviceaccount.com",
-        "client_id": "111028740226853209488",
-        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-        "token_uri": "https://oauth2.googleapis.com/token",
-        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/buff-bot%40buff-bot.iam.gserviceaccount.com",
-        "universe_domain": "googleapis.com"
+      "type": "service_account",
+      "project_id": "sorare-423522",
+      "private_key_id": "dd121381ccc6ee9507153e8e9038df49cffe175d",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3Wz3uZfhXQeJI\nQrVvIXGJ4XRBSDKkcgCY/3dnCSa08MfVcBkalEMwQfl/hJB1bIW/neC39ZOaEtso\nWjg0tt3vxePSwivtUFANTNpWZ/KXBxhY4czTByqAnro4V+aUxOvXxYGTfllAb3iF\nA2zQ27ESYd+H6/BnbHiraUFGn9Z0Sd8ddBHs5skGXKmpcAWI1YSUP1gQB4tiCYFe\nanZDYeXqyvbwEHUG1Dzr8oXNncdcfnOJAmIsI2oYcpyvNe7ooHz1AMYjj753Z08z\nn3a9NgbUqaQ0sK3PIArJDQM5FMmZRtxb3j6dVjakF13vrFKUrT4gbqODhgFvfKM4\nbdYexxwHAgMBAAECggEACrmmFj9VtvjuHQ714PHCW+/ZpoXsHG1kto5e9CJ3Zqcc\n8VG0zja09Wouh3SAJLY73pkED46oWx9WPXaFiiPWOJPJP0dHXYLQo+6GaP58lLQA\nCxbuLbviExL1zpzpqnMYXo85hKCj5N6AXLt2DoODSJF8C03USqBwMIqgHFr2Jugf\n18D8KoHEgrg+QRAWG7eONfF/0JXr9VdhFqn8v72FKW6ayg1bSlN+TWHlLXMptXOs\n3ApgEgVnuHwLZh7k14Y4yF7UJUXv/uj4EiLa875PQLY5sZDLaM2AH+GMYaGPP6j3\nOoyl4sNoXryV4uwQxDkjvT38Rr37rMY3LdqDaYuZXQKBgQDs9J/mhUoFuy6ALj6Y\nqQkweaeHmrAfeUJcluAkwxrF0qYXYNJ+K7GTCaN5tlkPqxn7/UHnnJzNQfvP/Dlq\nPTnR3jUCJfkMKirauvwmT7T9w4k6Yju7lM7+rz/s4Tc8E6ame0h+jjH+xD3C62Km\nJP4WNxxBC9xQM+UW5lTgLvm0mwKBgQDGF8+76qN5Gi4yed49X6MQQXpp+q9M+QQm\n0DdzV9uu8HWHRCwC1KwWcVZ0raIy07mXHkjEyw/DE5VK1cJSfXPNrL4KkeadJIlJ\nSogP6XaNH1GaWfyteLpuNUT5A9O+hguqm3FcD/1xmIhCd2LFKKuV8FohPeobXKe+\nzTFq7kyPBQKBgQCT8lzQGpLQJ0HuaHFO8eO574tJYKzsydJEazOB4Iubzl1DpYFn\no7JYwyDdwpuy67rqmgMHMMK6aaNnBe13RskOHzZro/fuv3lIXo1HAmdYNjk9Sc5P\n3aasYBGCvk+1Y/OeaMUnt3LBxhdl14AdimVWy4wJlPU24l/8P03pN4tTVwKBgGOf\nUAKigyoBR6Bs956H/VrMg0LPJuAgD71xU6G3Wq0FEyY+259k01LKFv/A3uSO5DQi\nr9gAg2HI9HjZPcv8eYPDTyPDsmXvHPf1+q197PgV+xUUEmYvZBrOwWw2R4P2p+Fa\nIU16YSyC2GwM3GhpBrn2UW2MVLMECvyC90peo7P9AoGBAJCEEy3HWL1BlAfqB5LV\nUq0oXhOk+NgwlZC4J1JnExzR/UeRm31/D7M4Ij/V1su9c/5zU/K0+q3DxyK9Sc3v\nauep++I6OrJbk7/fzHNP/7u5YBy2zLVWEkAfdraK9nolhf4llT18ux8fDC1ZgAFd\nSUMR+JtPvd/xo+E7noyaaVoB\n-----END PRIVATE KEY-----\n",
+      "client_email": "sorare@sorare-423522.iam.gserviceaccount.com",
+      "client_id": "104064422614061099716",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sorare%40sorare-423522.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
     },
-    "sheet_id": "Steam",
-    "sheet_name": "Steam",
-    "file_name": "Buff163-Skins"
-  },
-  "postgres": {
-    "uri": "postgresql://doadmin:AVNS_GRvfxsqSGM1kpyI0Gqr@db-steam-buff-bot-do-user-13097918-0.c.db.ondigitalocean.com:25061/Pool1"
+    "sheet_id": "1v_kgH5_OUFnsTzo0PAqiYNk9N9FzGdpq20rg0TG8LGc",
+    "sheet_name": "Folha1",
+    "file_name": "Sorare"
   }
 }

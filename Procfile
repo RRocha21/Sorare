@@ -1,1 +1,1 @@
-worker: python steam2buff
+worker: python sorare
